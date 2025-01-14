@@ -1,9 +1,11 @@
 package com.in28minutes.learn_spring_framework.helloworld;
 
+import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.Arrays;
 
+@SpringBootConfiguration
 public class App02GamingBasicJava {
     public static void main(String[] args){
 //        1. launch a spring context
